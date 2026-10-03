@@ -1,0 +1,10 @@
+bin/
+dist/
+*.class
+*.jar
+src/assets/*.wav
+src/assets/*.mp3
+.classpath
+.project
+.settings/
+.idea/
