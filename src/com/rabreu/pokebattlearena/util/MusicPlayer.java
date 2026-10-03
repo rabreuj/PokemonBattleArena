@@ -28,7 +28,7 @@ public class MusicPlayer {
         
         try {
             // Cargar el archivo desde dentro del JAR
-            rawStream = getClass().getResourceAsStream("/" + fileName);
+            rawStream = getClass().getResourceAsStream("/assets/" + fileName);
             
             if (rawStream == null) {
                 System.out.println("  ⚠ Música no encontrada: " + fileName);

@@ -77,7 +77,7 @@ public class ConsoleUI {
 		
 		// Pausa para que se escuche la música final
 	    try {
-	        Thread.sleep(10); // 10 segundos
+	        Thread.sleep(10000); // 10 segundos
 	    } catch (InterruptedException e) {
 	        e.printStackTrace();
 	    }

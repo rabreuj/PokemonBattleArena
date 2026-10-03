@@ -2,8 +2,12 @@ bin/
 dist/
 *.class
 *.jar
-src/assets/*.wav
-src/assets/*.mp3
+
+# Música (derechos de autor)
+assets/
+src/assets/
+
+# Configuración IDE
 .classpath
 .project
 .settings/
