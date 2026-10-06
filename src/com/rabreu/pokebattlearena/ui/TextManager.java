@@ -115,7 +115,7 @@ public class TextManager {
 		if (currentLanguage == Language.ES) {
 			return "Elige una opción ➤ ";
 		} else {
-			return "Choose an the option ➤ ";
+			return "Choose an option ➤ ";
 		}
 	}
 	

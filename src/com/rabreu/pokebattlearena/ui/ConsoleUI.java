@@ -182,7 +182,7 @@ public class ConsoleUI {
 	        System.out.println("  " + "  [3] " + text.getDifficultyHard());
 	        System.out.println();
 	        
-	        print("  " + text.getOptionText());
+	        System.out.print("  " + text.getOptionText());
 	        
 	        if (sc.hasNextInt()) {
 	            option = sc.nextInt();
@@ -236,7 +236,7 @@ public class ConsoleUI {
 	        System.out.println("  " + "  [2] ⇄  " + text.getPlayerActionSwitch());
 	        System.out.println();
 	        
-	        print(text.getOptionText());
+	        System.out.print(text.getOptionText());
 	        
 	        if (sc.hasNextInt()) {
 	            option = sc.nextInt();
@@ -290,7 +290,7 @@ public class ConsoleUI {
 	        }
 	        System.out.println();
 	        
-	        print(text.getOptionText());
+	        System.out.print(text.getOptionText());
 	        
 	        if (sc.hasNextInt()) {
 	            option = sc.nextInt();
@@ -319,7 +319,7 @@ public class ConsoleUI {
 	        println(text.nextPokemonText() + battle.getRedActivePokemon().getName() + "...");
 	        System.out.println();
 	        println(text.askSwitch());
-	        print(text.getOptionText());
+	        System.out.print(text.getOptionText());
 	        
 	        if (sc.hasNextInt()) {
 	            option = sc.nextInt();
@@ -342,7 +342,7 @@ public class ConsoleUI {
 			 }
 				 
 			showPokemonList();
-			print(text.getOptionText());
+			System.out.print(text.getOptionText());
 				 
 			if (sc.hasNextInt()) {
 	            option = sc.nextInt();
